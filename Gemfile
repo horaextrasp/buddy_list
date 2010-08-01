@@ -13,6 +13,7 @@ gem 'formtastic', :git => "http://github.com/justinfrench/formtastic.git", :bran
 gem 'paperclip'
 
 group :test do
+  gem "rspec-rails", ">= 2.0.0.beta.17"
 	gem 'cucumber'
 	gem 'fabrication'
 	gem 'capybara'
