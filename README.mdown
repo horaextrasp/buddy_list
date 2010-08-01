@@ -1,0 +1,33 @@
+# Buddy List #
+
+## Historia ##
+	
+O buddy list é o primeiro projeto do grupo de estudos do Hora extra SP
+
+## Instalação ##
+
+Ruby 1.8.7
+Rails 3 RC
+	
+### Configurando o projeto em 6 passos ###
+	
+1. Faça um clone do projeto no github 
+  git clone git@github.com:horaextrasp/buddy_list.git
+
+1. Instale o bundler para instalar as gems do projeto
+		gem install bundler --pre (--pre server para instalar a versão Release Candidate)
+		
+1. Rode o bundler para instalar as gems do gemfile
+		bundle install
+		
+1. Crie o banco de dados.
+		rake db:create:all
+		
+1. Crie as tabelas.
+		rake db:migrate
+		
+1. Prepare o banco de testes
+		rake db:test:prepare
+	
+		
+	
