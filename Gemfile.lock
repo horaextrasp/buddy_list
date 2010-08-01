@@ -137,6 +137,7 @@ GEM
       activesupport (= 3.0.0.rc)
       bundler (>= 1.0.0.rc.1)
       railties (= 3.0.0.rc)
+    rails3-generators (0.11.0)
     rails_best_practices (0.3.26)
       ruby2ruby (>= 1.2.4)
       ruby_parser (>= 2.0.4)
@@ -207,6 +208,7 @@ DEPENDENCIES
   metric_fu
   paperclip
   rails (= 3.0.0.rc)
+  rails3-generators
   rspec-rails (>= 2.0.0.beta.17)
   spork
   sqlite3-ruby
