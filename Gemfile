@@ -14,6 +14,7 @@ gem 'paperclip'
 
 group :test do
   gem "rspec-rails", ">= 2.0.0.beta.17"
+  gem 'cucumber-rails'
 	gem 'cucumber'
 	gem 'fabrication'
 	gem 'capybara'
