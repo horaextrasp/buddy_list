@@ -123,6 +123,9 @@ GEM
     paperclip (2.3.3)
       activerecord
       activesupport
+    pickler (0.1.5)
+      activesupport (>= 2.0.0)
+      cucumber (>= 0.8.0)
     polyglot (0.3.1)
     rack (1.2.1)
     rack-mount (0.6.9)
@@ -207,6 +210,7 @@ DEPENDENCIES
   launchy
   metric_fu
   paperclip
+  pickler
   rails (= 3.0.0.rc)
   rails3-generators
   rspec-rails (>= 2.0.0.beta.17)
