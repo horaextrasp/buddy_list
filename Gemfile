@@ -21,6 +21,6 @@ group :test do
 	gem 'capybara'
 	gem 'webrat'
 	gem 'spork'
-	
+  gem 'pickler'	
 	gem 'launchy'
 end
