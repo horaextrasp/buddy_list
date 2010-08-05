@@ -123,6 +123,7 @@ GEM
     paperclip (2.3.3)
       activerecord
       activesupport
+    pg (0.9.0)
     pickler (0.1.5)
       activesupport (>= 2.0.0)
       cucumber (>= 0.8.0)
@@ -210,6 +211,7 @@ DEPENDENCIES
   launchy
   metric_fu
   paperclip
+  pg
   pickler
   rails (= 3.0.0.rc)
   rails3-generators
